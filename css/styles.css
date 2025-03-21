@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Playwrite+IT+Moderna:wght@100..400&family=Sancreek&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Sancreek&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
 
 * {
@@ -89,10 +88,9 @@ body {
 
 .didDLetter {
   font-size: 25px;
-  font-weight:lighter;
+  font-weight:bold;
   text-decoration:none;
   text-transform:uppercase;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .didILetter {
@@ -100,7 +98,6 @@ body {
   font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .didDTwoLetter {
@@ -108,7 +105,6 @@ body {
   font-weight:bolder;
   text-decoration:underline;
   text-transform:lowercase;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 /* THE word */
@@ -117,8 +113,7 @@ body {
   font-size: 45px;
   font-weight:bolder;
   text-decoration:none;
-  text-transform:uppercase;
-  font-family: "Playwrite IT Moderna";
+  text-transform:none;
 }
 
 .theHLetter {
@@ -126,12 +121,12 @@ body {
   font-weight:normal;
   text-decoration:underline;
   text-transform:lowercase;
-  font-family: "Sancreek", serif;
+  font-family: nosifer, serif;
 }
 
 .theELetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 38px;
+  font-weight:light;
   text-decoration:none;
   text-transform:uppercase;
 }
@@ -139,114 +134,115 @@ body {
 /* FRONT-END word */
 
 .frontendFLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 42px;
+  font-weight:normal;
+  text-decoration:overline;
+  text-transform:none;
 }
 
 .frontendRLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 55px;
+  font-weight:bold;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 
 .frontendOLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 36px;
+  font-weight:light;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:none;
 }
 
 .frontendNLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
+  font-size: 40px;
+  font-weight:bold;
+  text-decoration:underline;
   text-transform:uppercase;
 }
 
 .frontendTLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 35px;
+  font-weight:normal;
+  text-decoration:line-through;
+  text-transform:lowercase;
+
 }
 
 .frontendELetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 60px;
+  font-weight:light;
   text-decoration:none;
   text-transform:uppercase;
 }
 
 .frontendNTwoLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 29px;
+  font-weight:bold;
   text-decoration:none;
   text-transform:uppercase;
 }
 
 .frontendDLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 65px;
+  font-weight:normal;
+  text-decoration:underline;
+  text-transform:lowercase;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 49px;
+  font-weight:400;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .developerELetter {
   font-size: 25px;
-  font-weight:lighter;
+  font-weight:bold;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .developerVLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
+  font-size: 42px;
+  font-weight:normal;
+  text-decoration:overline;
   text-transform:uppercase;
 }
 .developerETwoLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
+  font-size: 43px;
+  font-weight:700;
+  text-decoration:underline;
   text-transform:uppercase;
 }
 .developerLLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
+  font-size: 55px;
+  font-weight:bold;
+  text-decoration:line-through;
   text-transform:uppercase;
 }
 .developerOLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 61px;
+  font-weight:400;
   text-decoration:none;
   text-transform:uppercase;
 }
 .developerPLetter {
   font-size: 25px;
-  font-weight:lighter;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .developerEThreeLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 35px;
+  font-weight:light;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .developerRLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 30px;
+  font-weight:700;
   text-decoration:none;
   text-transform:uppercase;
 }
@@ -254,41 +250,41 @@ body {
 /* TAKE word */
 
 .takeTLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 47px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .takeALetter {
   font-size: 25px;
-  font-weight:lighter;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .takeKLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 42px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .takeELetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 61px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 
 /* UP word */
 
 .upULetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 55px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .upPLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 46px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
@@ -296,101 +292,101 @@ body {
 /* GARDENING word */
 
 .gardeningGLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 65px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .gardeningALetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 49px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .gardeningRLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 32px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .gardeningDLetter {
   font-size: 25px;
-  font-weight:lighter;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .gardeningELetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 43px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .gardeningNLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 62px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .gardeningILetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 56px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .gardeningNTwoLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 49px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .gardeningGTwoLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 41px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
   font-size: 25px;
-  font-weight:lighter;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .becauseELetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 32px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .becauseCLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 46px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .becauseALetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 59px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .becauseULetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 42px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .becauseSLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 52px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .becauseETwoLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 36px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
@@ -398,26 +394,26 @@ body {
 /* THEY word */
 
 .theyTLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 49px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .theyHLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 41px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .theyELetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 34px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .theyYLetter {
   font-size: 25px;
-  font-weight:lighter;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
@@ -425,221 +421,225 @@ body {
 /* WANTED word */
 
 .wantedWLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 34px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .wantedALetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 48px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .wantedNLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 62px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .wantedTLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 54px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .wantedELetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 49px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .wantedDLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 58px;
+  font-weight:normal;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
+
 }
 
 /* TO word */
 
 .toTLetter {
   font-size: 67px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: lowercase;
 }
 .toOLetter {
   font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
+  font-weight:bold;
+  text-decoration:overline;
   text-transform:uppercase;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 48px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
 }
 .improveMLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 55px;
+  font-weight:bold;
+  text-decoration:underline;
+  text-transform:lowercase;
+
 }
 .improvePLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 61px;
+  font-weight:400;
+  text-decoration:line-through;
+  text-transform:lowercase;
 }
 .improveRLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 49px;
+  font-weight:light;
+  text-decoration:underline;
+  text-transform:lowercase;
 }
 .improveOLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 41px;
+  font-weight:bold;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .improveVLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 35px;
+  font-weight:normal;
   text-decoration:none;
   text-transform:uppercase;
+
 }
 .improveELetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 47px;
+  font-weight:bold;
   text-decoration:none;
   text-transform:uppercase;
+
 }
 
 /* THEIR word */
 
 .theirTLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 35px;
+  font-weight:400;
+  text-decoration:overline;
+  text-transform:lowercase;
 }
 .theirHLetter {
   font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
+  font-weight:700;
+  text-decoration:line-through;
   text-transform:uppercase;
 }
 .theirELetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
+  font-size: 32px;
+  font-weight:light;
+  text-decoration:underline;
   text-transform:uppercase;
 }
 .theirILetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 46px;
+  font-weight:bolder;
   text-decoration:none;
   text-transform:uppercase;
+
 }
 .theirRLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 54px;
+  font-weight:light;
+  text-decoration:overline;
+  text-transform:lowercase;
 }
 
 /* ROOT word */
 
 .rootRLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 47px;
+  font-weight:bold;
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 .rootOLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 38px;
+  font-weight:light;
   text-decoration:none;
   text-transform:uppercase;
 }
 .rootOTwoLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 49px;
+  font-weight:bolder;
+  text-decoration:underline;
+  text-transform:lowercase;
+
 }
 .rootTLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
+  font-size: 54px;
+  font-weight:ligh;
+  text-decoration:underline;
   text-transform:uppercase;
 }
 
 /* SKILLS word */
 
 .skillsSLetter { 
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
+  font-size: 42px;
+  font-weight:400;
+  text-decoration:overline;
   text-transform:uppercase;
+
 }
 .skillsKLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 34px;
+  font-weight:normal;
+  text-decoration:line-through;
+  text-transform:lowercase;
 }
 .skillsILetter {
   font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-weight:bold;
+  text-decoration:overline;
+  text-transform:lowercase;
 }
 .skillsLLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 49px;
+  font-weight:700;
   text-decoration:none;
   text-transform:uppercase;
 }
 .skillsLTwoLetter {
-  font-size: 25px;
-  font-weight:lighter;
+  font-size: 41px;
+  font-weight:400;
   text-decoration:none;
   text-transform:uppercase;
 }
 .skillsSTwoLetter {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 55px;
+  font-weight:light;
+  text-decoration:line-through;
+  text-transform:lowercase;
 }
 
 /* SYMBOLS */
 
 .hyphen {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 44px;
+  font-weight:bolder;
 }
 .exclamation-mark {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 66px;
+  font-weight:bolder;
+
 }
 .question-mark {
-  font-size: 25px;
-  font-weight:lighter;
-  text-decoration:none;
-  text-transform:uppercase;
+  font-size: 43px;
+  font-weight:light;
 }
 .colorRed {
   color: rgb(105, 17, 17);
-  font-family: "Nosifer", sans-serif;
 }
 .colorBlue {
 color: blue;
@@ -659,4 +659,22 @@ color:greenyellow;
 }
 .colorOrange{
   color:rgb(194, 88, 2);
+}
+.letter:nth-of-type(7n) {
+  font-family: 'Piazolla', sans-serif;
+}
+.letter:nth-of-type(7n+1){
+  font-family: 'Ceviche One', sans-serif;
+}
+.letter:nth-of-type(7n+2){
+  font-family: 'Raleway Dots', sans-serif;
+}
+.letter:nth-of-type(7n+3){
+  font-family: 'Playwrite IT Moderna', sans-serif;
+}
+.letter:nth-of-type(7n+4){
+  font-family: "Nosifer", sans-serif;
+}
+.letter:nth-of-type(7n+5){
+  font-family: "Mea Culpa", sans-serif;
 }
